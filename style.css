@@ -159,3 +159,32 @@ section::before{
     justify-content: center;
 }
 
+
+/* contact */
+.contact::before{
+    content: 'Contact';
+}
+
+.contact-item-img p{
+    font-weight: 500;
+}
+
+.contact-item-img img{
+    width: 20%;
+}
+.contact-form{
+    padding: 64px 42px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.contact-form label{
+    font-weight: 600;
+}
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
